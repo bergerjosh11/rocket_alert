@@ -34,15 +34,17 @@ RocketAlertWhatsApp is a simple Ruby on Rails application that allows users to c
 4. Set up Twilio:
   Sign up for a Twilio account and get your Account SID, Auth Token, and a Twilio phone number that can send WhatsApp messages.
   Create a .env file in the root of the project and add your Twilio credentials:
-  **TWILIO_ACCOUNT_SID=your_account_sid
+```
+TWILIO_ACCOUNT_SID=your_account_sid
 TWILIO_AUTH_TOKEN=your_auth_token
 TWILIO_WHATSAPP_FROM=whatsapp:+your_twilio_whatsapp_number
-WHATSAPP_TO=whatsapp:+recipient_number**
+WHATSAPP_TO=whatsapp:+recipient_number
+```
 
-5. Start the rails server
+6. Start the rails server
     rails server
    
-6. Open your browser and navigate to http://localhost:3000 to see the form for creating a new rocket attack alert.
+7. Open your browser and navigate to http://localhost:3000 to see the form for creating a new rocket attack alert.
 
 
 ### Usage
